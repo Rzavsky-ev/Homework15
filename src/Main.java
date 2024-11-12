@@ -33,10 +33,13 @@ public class Main {
                 70, 30);
 
         ////////////////////////////Проверка методов////////////////////////////////////////////////////////
+        //Вывод данных
         potter.outputAllStudentData();
         System.out.println();
-        potter.compareStudents(granger);
+        //Сравнение учеников одного факультета
+        potter.compareStudentsOfFaculty(granger);
         System.out.println();
+        //Сравнение по по силе магии и расстоянию трансгрессированости
         potter.compareStudents(diggory);
     }
 }

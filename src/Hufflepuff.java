@@ -23,13 +23,13 @@ public class Hufflepuff extends Hogwarts {
         return calculateOverallLevel() + this.hardWork + this.loyalty + this.honesty;
     }
 
-    public void compareStudents(Gryffindor student) {
+    public void compareStudentsOfFaculty(Gryffindor student) {
         if (this.calculateOverallLevel() > student.calculateOverallLevel()) {
-            System.out.println("Сильнее:" + this.name + ".");
+            System.out.println("На факультете сильнее:" + this.name + ".");
         } else if (this.calculateOverallLevel() < student.calculateOverallLevel()) {
-            System.out.println("Сильнее:" + student.name + ".");
+            System.out.println("На факультете сильнее:" + student.name + ".");
         } else {
-            System.out.println("Ученики равны.");
+            System.out.println("На факультете сильнее ученики равны.");
         }
     }
 }
