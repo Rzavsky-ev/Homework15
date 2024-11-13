@@ -29,7 +29,7 @@ public class Slytherin extends Hogwarts {
         return calculateOverallLevel() + this.cunning + this.determination + this.ambition + this.resourcefulness +
                 this.lustForPower;
     }
-    public void compareStudentsOfFaculty(Gryffindor student) {
+    public void compareStudentsOfFaculty(Slytherin student) {
         if (this.calculateOverallLevel() > student.calculateOverallLevel()) {
             System.out.println("На факультете сильнее:" + this.name + ".");
         } else if (this.calculateOverallLevel() < student.calculateOverallLevel()) {

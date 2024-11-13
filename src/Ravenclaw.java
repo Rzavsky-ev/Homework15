@@ -27,7 +27,7 @@ public class Ravenclaw extends Hogwarts {
         return calculateOverallLevel() + this.intellect + this.wisdom + this.wit + this.levelCreativity;
     }
 
-    public void compareStudentsOfFaculty(Gryffindor student) {
+    public void compareStudentsOfFaculty(Ravenclaw student) {
         if (this.calculateOverallLevel() > student.calculateOverallLevel()) {
             System.out.println("На факультете сильнее:" + this.name + ".");
         } else if (this.calculateOverallLevel() < student.calculateOverallLevel()) {

@@ -23,7 +23,7 @@ public class Hufflepuff extends Hogwarts {
         return calculateOverallLevel() + this.hardWork + this.loyalty + this.honesty;
     }
 
-    public void compareStudentsOfFaculty(Gryffindor student) {
+    public void compareStudentsOfFaculty(Hufflepuff student) {
         if (this.calculateOverallLevel() > student.calculateOverallLevel()) {
             System.out.println("На факультете сильнее:" + this.name + ".");
         } else if (this.calculateOverallLevel() < student.calculateOverallLevel()) {
